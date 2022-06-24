@@ -1,0 +1,27 @@
+{
+  "name": "base-bot-v13",
+  "version": "1.0.0",
+  "description": "Base de un bot orientado a objetos - discord.js V13",
+  "main": "main.js",
+  "scripts": {
+    "dev": "nodemon src/main.js",
+    "start": "node src/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alfr3XD/discord-bot-v13.git"
+  },
+  "author": "Alfr3XD",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Alfr3XD/discord-bot-v13/issues"
+  },
+  "homepage": "https://github.com/Alfr3XD/discord-bot-v13#readme",
+  "dependencies": {
+    "discord.js": "^13.8.1"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.1",
+    "nodemon": "^2.0.18"
+  }
+}
